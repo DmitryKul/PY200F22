@@ -3,57 +3,57 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 371
-        length: 29
+      - offset: 363
+        length: 50
         placeholder_text: "...  # TODO добавить атрибуты"
         initial_state:
           length: 29
           offset: 371
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
         encrypted_possible_answer: "...  # TODO добавить атрибуты"
-      - offset: 506
-        length: 33
+      - offset: 537
+        length: 54
         placeholder_text: "...  # TODO вернуть значение узла"
         initial_state:
           length: 33
           offset: 506
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
         encrypted_possible_answer: "...  # TODO вернуть значение узла"
-      - offset: 545
-        length: 30
+      - offset: 596
+        length: 0
         placeholder_text: '# TODO добавить метод get_next'
         initial_state:
           length: 30
           offset: 545
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
         encrypted_possible_answer: '# TODO добавить метод get_next'
-      - offset: 691
-        length: 57
+      - offset: 938
+        length: 86
         placeholder_text: '# TODO с помощью метода распечатать значение первого узла'
         initial_state:
           length: 57
           offset: 691
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
         encrypted_possible_answer: '# TODO с помощью метода распечатать значение первого
       узла'
-      - offset: 753
-        length: 64
+      - offset: 1029
+        length: 94
         placeholder_text: '# TODO  с помощью метода распечатать следующий узел второго
       узла'
         initial_state:
           length: 64
           offset: 753
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
         encrypted_possible_answer: '# TODO  с помощью метода распечатать следующий узел
       второго узла'
     text: |
@@ -94,5 +94,8 @@ files:
       1
       None
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Syntax Error
+  time: "Fri, 12 Jan 2024 17:01:46 UTC"
 record: -1
