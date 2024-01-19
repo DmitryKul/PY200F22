@@ -32,8 +32,8 @@ files:
         encrypted_possible_answer: |-
           class Book:
               ...
-      - offset: 217
-        length: 29
+      - offset: 569
+        length: 30
         placeholder_text: '# TODO написать класс Library'
         initial_state:
           length: 29

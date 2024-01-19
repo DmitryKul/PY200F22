@@ -4,36 +4,36 @@ files:
     visible: true
     placeholders:
       - offset: 183
-        length: 49
+        length: 63
         placeholder_text: "# TODO атрибут, хранящий длину последовательности"
         initial_state:
           length: 49
           offset: 183
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: "# TODO атрибут, хранящий длину последовательности"
-      - offset: 613
+      - offset: 667
         length: 45
         placeholder_text: '# TODO устанавливаем длину последовательности'
         initial_state:
           length: 45
           offset: 613
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: '# TODO устанавливаем длину последовательности'
-      - offset: 1487
-        length: 43
+      - offset: 1534
+        length: 120
         placeholder_text: '# TODO проверка корректности границ индекса'
         initial_state:
           length: 43
           offset: 1487
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: '# TODO проверка корректности границ индекса'
-      - offset: 2023
+      - offset: 2147
         length: 77
         placeholder_text: '# TODO с помощью цикла for распечатать в столбик все значения
       связного списка'
@@ -41,8 +41,8 @@ files:
           length: 77
           offset: 2023
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: '# TODO с помощью цикла for распечатать в столбик все
       значения связного списка'
     text: |
@@ -162,5 +162,8 @@ files:
               self.is_valid(next_)
               self.next = next_
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 19 Jan 2024 16:27:18 UTC"
 record: -1

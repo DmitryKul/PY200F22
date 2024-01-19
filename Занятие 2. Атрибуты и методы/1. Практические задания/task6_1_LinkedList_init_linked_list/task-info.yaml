@@ -4,36 +4,36 @@ files:
     visible: true
     placeholders:
       - offset: 429
-        length: 77
+        length: 105
         placeholder_text: "...  # TODO обернуть все значения в класс Node и поместить\
       \ их в python список"
         initial_state:
           length: 77
           offset: 429
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: "...  # TODO обернуть все значения в класс Node и п\
       оместить их в python список"
-      - offset: 516
-        length: 46
+      - offset: 544
+        length: 90
         placeholder_text: "# TODO составьте алгоритм, который свяжет узлы"
         initial_state:
           length: 46
           offset: 516
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: "# TODO составьте алгоритм, который свяжет узлы"
-      - offset: 568
-        length: 36
+      - offset: 782
+        length: 51
         placeholder_text: '# TODO каким должен быть этот метод?'
         initial_state:
           length: 36
           offset: 568
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: '# TODO каким должен быть этот метод?'
     text: |
       from typing import Iterable, Optional
@@ -115,5 +115,8 @@ files:
               self.is_valid(next_)
               self.next = next_
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 19 Jan 2024 15:55:22 UTC"
 record: -1
