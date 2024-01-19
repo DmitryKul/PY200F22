@@ -28,7 +28,7 @@ files:
           offset: 188
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Failed
         encrypted_possible_answer: |-
           class Book:
               ...
@@ -40,7 +40,7 @@ files:
           offset: 217
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Failed
         encrypted_possible_answer: |-
           class Library:
               ...
@@ -77,5 +77,8 @@ files:
       
           print(library_with_books.get_index_by_book_id(1))  # проверяем индекс книги с id = 1
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Error during execution
+  time: "Fri, 19 Jan 2024 17:57:22 UTC"
 record: -1
