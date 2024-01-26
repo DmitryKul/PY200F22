@@ -33,7 +33,7 @@ files:
         selected: true
         status: Failed
         encrypted_possible_answer: '# TODO добавить метод get_next'
-      - offset: 938
+      - offset: 902
         length: 86
         placeholder_text: '# TODO с помощью метода распечатать значение первого узла'
         initial_state:
@@ -44,7 +44,7 @@ files:
         status: Failed
         encrypted_possible_answer: '# TODO с помощью метода распечатать значение первого
       узла'
-      - offset: 1029
+      - offset: 993
         length: 94
         placeholder_text: '# TODO  с помощью метода распечатать следующий узел второго
       узла'
@@ -96,6 +96,13 @@ files:
     learner_created: false
 status: Failed
 feedback:
-  message: Syntax Error
-  time: "Fri, 12 Jan 2024 17:01:46 UTC"
+  message: Incorrect
+  time: "Fri, 19 Jan 2024 15:46:31 UTC"
+  expected: |
+    1
+    None
+  actual: |
+    None
+    Node
+    None
 record: -1

@@ -13,7 +13,7 @@ files:
           offset: 424
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Solved
         encrypted_possible_answer: |-
           # TODO какой декоратор следует применить?
               def is_leap_year(self, year: int) -> bool:
@@ -25,7 +25,7 @@ files:
           offset: 573
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Solved
         encrypted_possible_answer: "...  # TODO записать условие проверки високосного\
       \ года"
       - offset: 777
@@ -36,7 +36,7 @@ files:
           offset: 777
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Solved
         encrypted_possible_answer: "...  # TODO вернуть количество дней указанного мес\
       яца"
       - offset: 963
@@ -48,7 +48,7 @@ files:
           offset: 963
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Solved
         encrypted_possible_answer: "...  # TODO если указанный набор день, месяц и год\
       \ неверны, то вызвать ошибку ValueError"
       - offset: 1057
@@ -59,7 +59,7 @@ files:
           offset: 1057
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Solved
         encrypted_possible_answer: '# TODO записать getter и setter для дня'
       - offset: 1102
         length: 42
@@ -69,7 +69,7 @@ files:
           offset: 1102
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Solved
         encrypted_possible_answer: '# TODO записать getter и setter для месяца'
       - offset: 1150
         length: 40
@@ -79,7 +79,7 @@ files:
           offset: 1150
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Solved
         encrypted_possible_answer: '# TODO записать getter и setter для года'
     text: |
       class Date:
@@ -118,6 +118,6 @@ files:
   - name: __init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

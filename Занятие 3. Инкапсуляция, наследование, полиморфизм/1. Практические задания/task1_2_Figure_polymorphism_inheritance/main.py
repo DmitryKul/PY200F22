@@ -12,14 +12,21 @@ class Figure:
 class Rectangle(Figure):
     """ Производный класс. Прямоугольник. """
 
-    ...  # TODO определить конструктор и перегрузить метод area
+    def __init__(self, a, b):  # TODO определить конструктор и перегрузить метод area
+        self.a = a
+        self.b = b
 
+    def area(self):
+        super().area()
+        return self.a * self.b
 
 class Circle(Figure):
     """ Производный класс. Круг. """
-
-    ...  # TODO определить конструктор и перегрузить метод area
-
+    def __init__(self, a):
+        self.a = a
+    def area(self):  # TODO определить конструктор и перегрузить метод area
+        super().area()
+        return math.pi * (self.a**2)
 
 if __name__ == "__main__":
     fig = Figure()

@@ -25,8 +25,7 @@ class Node:
 if __name__ == '__main__':
     second_node = Node(2) # второй узел
     first_node = Node(1, second_node)  # первый узел
-    null_node = Node(0,first_node)
-    print(second_node.get_next())
+    print(first_node.get_next())
 
     print(first_node.get_next()) # TODO с помощью метода распечатать значение первого узла
     print(second_node.get_next()) # TODO  с помощью метода распечатать следующий узел второго узла
